@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+}
+
+table{
+    width: 75%;
+    height: 35%;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    margin: 10px 50px;
+    border: 2px solid black;
+}
+
+table tr:nth-of-type(5){
+    background: orange;
+}
+
+table tr:nth-of-type(6){
+    background: blue;
+}
+table tr:nth-of-type(7){
+    background: green;
+}
